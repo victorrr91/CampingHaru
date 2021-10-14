@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1BD50B12718017400DA56E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD50B02718017400DA56E3 /* AppDelegate.swift */; };
+		B1BD50B32718017400DA56E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD50B22718017400DA56E3 /* SceneDelegate.swift */; };
+		B1BD50BA2718017500DA56E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BD50B92718017500DA56E3 /* Assets.xcassets */; };
+		B1BD50BD2718017500DA56E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BD50BB2718017500DA56E3 /* LaunchScreen.storyboard */; };
+		B1BD50C82718017500DA56E3 /* CampingHaruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD50C72718017500DA56E3 /* CampingHaruTests.swift */; };
+		B1BD50D32718017500DA56E3 /* CampingHaruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD50D22718017500DA56E3 /* CampingHaruUITests.swift */; };
+		B1BD50E12718050E00DA56E3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD50E02718050E00DA56E3 /* TabBarController.swift */; };
+		B1BD50E3271805AA00DA56E3 /* CampingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD50E2271805AA00DA56E3 /* CampingListViewController.swift */; };
+		B1BD50E52718068400DA56E3 /* CamlendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD50E42718068400DA56E3 /* CamlendarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1BD50C42718017500DA56E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BD50A52718017300DA56E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1BD50AC2718017400DA56E3;
+			remoteInfo = CampingHaru;
+		};
+		B1BD50CF2718017500DA56E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BD50A52718017300DA56E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1BD50AC2718017400DA56E3;
+			remoteInfo = CampingHaru;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1BD50AD2718017400DA56E3 /* CampingHaru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampingHaru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD50B02718017400DA56E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1BD50B22718017400DA56E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1BD50B92718017500DA56E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1BD50BC2718017500DA56E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1BD50BE2718017500DA56E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BD50C32718017500DA56E3 /* CampingHaruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampingHaruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD50C72718017500DA56E3 /* CampingHaruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingHaruTests.swift; sourceTree = "<group>"; };
+		B1BD50C92718017500DA56E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BD50CE2718017500DA56E3 /* CampingHaruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampingHaruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BD50D22718017500DA56E3 /* CampingHaruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingHaruUITests.swift; sourceTree = "<group>"; };
+		B1BD50D42718017500DA56E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1BD50E02718050E00DA56E3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B1BD50E2271805AA00DA56E3 /* CampingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampingListViewController.swift; sourceTree = "<group>"; };
+		B1BD50E42718068400DA56E3 /* CamlendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamlendarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1BD50AA2718017400DA56E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD50C02718017500DA56E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD50CB2718017500DA56E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1BD50A42718017300DA56E3 = {
+			isa = PBXGroup;
+			children = (
+				B1BD50AF2718017400DA56E3 /* CampingHaru */,
+				B1BD50C62718017500DA56E3 /* CampingHaruTests */,
+				B1BD50D12718017500DA56E3 /* CampingHaruUITests */,
+				B1BD50AE2718017400DA56E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1BD50AE2718017400DA56E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD50AD2718017400DA56E3 /* CampingHaru.app */,
+				B1BD50C32718017500DA56E3 /* CampingHaruTests.xctest */,
+				B1BD50CE2718017500DA56E3 /* CampingHaruUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1BD50AF2718017400DA56E3 /* CampingHaru */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD50B02718017400DA56E3 /* AppDelegate.swift */,
+				B1BD50B22718017400DA56E3 /* SceneDelegate.swift */,
+				B1BD50E627180B7B00DA56E3 /* Scenes */,
+				B1BD50B92718017500DA56E3 /* Assets.xcassets */,
+				B1BD50BB2718017500DA56E3 /* LaunchScreen.storyboard */,
+				B1BD50BE2718017500DA56E3 /* Info.plist */,
+			);
+			path = CampingHaru;
+			sourceTree = "<group>";
+		};
+		B1BD50C62718017500DA56E3 /* CampingHaruTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD50C72718017500DA56E3 /* CampingHaruTests.swift */,
+				B1BD50C92718017500DA56E3 /* Info.plist */,
+			);
+			path = CampingHaruTests;
+			sourceTree = "<group>";
+		};
+		B1BD50D12718017500DA56E3 /* CampingHaruUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD50D22718017500DA56E3 /* CampingHaruUITests.swift */,
+				B1BD50D42718017500DA56E3 /* Info.plist */,
+			);
+			path = CampingHaruUITests;
+			sourceTree = "<group>";
+		};
+		B1BD50E627180B7B00DA56E3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD50E827180B9800DA56E3 /* Calendar */,
+				B1BD50E727180B9100DA56E3 /* CampingList */,
+				B1BD50E02718050E00DA56E3 /* TabBarController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B1BD50E727180B9100DA56E3 /* CampingList */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD50E2271805AA00DA56E3 /* CampingListViewController.swift */,
+			);
+			path = CampingList;
+			sourceTree = "<group>";
+		};
+		B1BD50E827180B9800DA56E3 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B1BD50E42718068400DA56E3 /* CamlendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1BD50AC2718017400DA56E3 /* CampingHaru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD50D72718017500DA56E3 /* Build configuration list for PBXNativeTarget "CampingHaru" */;
+			buildPhases = (
+				B1BD50A92718017400DA56E3 /* Sources */,
+				B1BD50AA2718017400DA56E3 /* Frameworks */,
+				B1BD50AB2718017400DA56E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampingHaru;
+			productName = CampingHaru;
+			productReference = B1BD50AD2718017400DA56E3 /* CampingHaru.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1BD50C22718017500DA56E3 /* CampingHaruTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD50DA2718017500DA56E3 /* Build configuration list for PBXNativeTarget "CampingHaruTests" */;
+			buildPhases = (
+				B1BD50BF2718017500DA56E3 /* Sources */,
+				B1BD50C02718017500DA56E3 /* Frameworks */,
+				B1BD50C12718017500DA56E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1BD50C52718017500DA56E3 /* PBXTargetDependency */,
+			);
+			name = CampingHaruTests;
+			productName = CampingHaruTests;
+			productReference = B1BD50C32718017500DA56E3 /* CampingHaruTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1BD50CD2718017500DA56E3 /* CampingHaruUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BD50DD2718017500DA56E3 /* Build configuration list for PBXNativeTarget "CampingHaruUITests" */;
+			buildPhases = (
+				B1BD50CA2718017500DA56E3 /* Sources */,
+				B1BD50CB2718017500DA56E3 /* Frameworks */,
+				B1BD50CC2718017500DA56E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1BD50D02718017500DA56E3 /* PBXTargetDependency */,
+			);
+			name = CampingHaruUITests;
+			productName = CampingHaruUITests;
+			productReference = B1BD50CE2718017500DA56E3 /* CampingHaruUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1BD50A52718017300DA56E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B1BD50AC2718017400DA56E3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					B1BD50C22718017500DA56E3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B1BD50AC2718017400DA56E3;
+					};
+					B1BD50CD2718017500DA56E3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = B1BD50AC2718017400DA56E3;
+					};
+				};
+			};
+			buildConfigurationList = B1BD50A82718017300DA56E3 /* Build configuration list for PBXProject "CampingHaru" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1BD50A42718017300DA56E3;
+			productRefGroup = B1BD50AE2718017400DA56E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1BD50AC2718017400DA56E3 /* CampingHaru */,
+				B1BD50C22718017500DA56E3 /* CampingHaruTests */,
+				B1BD50CD2718017500DA56E3 /* CampingHaruUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1BD50AB2718017400DA56E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD50BD2718017500DA56E3 /* LaunchScreen.storyboard in Resources */,
+				B1BD50BA2718017500DA56E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD50C12718017500DA56E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD50CC2718017500DA56E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1BD50A92718017400DA56E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD50E12718050E00DA56E3 /* TabBarController.swift in Sources */,
+				B1BD50B12718017400DA56E3 /* AppDelegate.swift in Sources */,
+				B1BD50B32718017400DA56E3 /* SceneDelegate.swift in Sources */,
+				B1BD50E52718068400DA56E3 /* CamlendarViewController.swift in Sources */,
+				B1BD50E3271805AA00DA56E3 /* CampingListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD50BF2718017500DA56E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD50C82718017500DA56E3 /* CampingHaruTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BD50CA2718017500DA56E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD50D32718017500DA56E3 /* CampingHaruUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1BD50C52718017500DA56E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1BD50AC2718017400DA56E3 /* CampingHaru */;
+			targetProxy = B1BD50C42718017500DA56E3 /* PBXContainerItemProxy */;
+		};
+		B1BD50D02718017500DA56E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1BD50AC2718017400DA56E3 /* CampingHaru */;
+			targetProxy = B1BD50CF2718017500DA56E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1BD50BB2718017500DA56E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BD50BC2718017500DA56E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1BD50D52718017500DA56E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1BD50D62718017500DA56E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1BD50D82718017500DA56E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4G34Z5GTF;
+				INFOPLIST_FILE = CampingHaru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SWLEE.CampingHaru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1BD50D92718017500DA56E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4G34Z5GTF;
+				INFOPLIST_FILE = CampingHaru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SWLEE.CampingHaru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1BD50DB2718017500DA56E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4G34Z5GTF;
+				INFOPLIST_FILE = CampingHaruTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SWLEE.CampingHaruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampingHaru.app/CampingHaru";
+			};
+			name = Debug;
+		};
+		B1BD50DC2718017500DA56E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4G34Z5GTF;
+				INFOPLIST_FILE = CampingHaruTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SWLEE.CampingHaruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampingHaru.app/CampingHaru";
+			};
+			name = Release;
+		};
+		B1BD50DE2718017500DA56E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4G34Z5GTF;
+				INFOPLIST_FILE = CampingHaruUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SWLEE.CampingHaruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampingHaru;
+			};
+			name = Debug;
+		};
+		B1BD50DF2718017500DA56E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4G34Z5GTF;
+				INFOPLIST_FILE = CampingHaruUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SWLEE.CampingHaruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampingHaru;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1BD50A82718017300DA56E3 /* Build configuration list for PBXProject "CampingHaru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD50D52718017500DA56E3 /* Debug */,
+				B1BD50D62718017500DA56E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD50D72718017500DA56E3 /* Build configuration list for PBXNativeTarget "CampingHaru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD50D82718017500DA56E3 /* Debug */,
+				B1BD50D92718017500DA56E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD50DA2718017500DA56E3 /* Build configuration list for PBXNativeTarget "CampingHaruTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD50DB2718017500DA56E3 /* Debug */,
+				B1BD50DC2718017500DA56E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BD50DD2718017500DA56E3 /* Build configuration list for PBXNativeTarget "CampingHaruUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD50DE2718017500DA56E3 /* Debug */,
+				B1BD50DF2718017500DA56E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1BD50A52718017300DA56E3 /* Project object */;
+}
